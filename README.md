@@ -105,6 +105,5 @@ We thank our mentors, faculty advisors, and the UCSB Healthy Communities Project
 **Arturo Espana**  
 📧 [arturoespana@ucsb.edu](mailto:arturoespana@ucsb.edu)  
 🔗 [LinkedIn](https://www.linkedin.com/in/arturo-espana)  
-🔗 [GitHub](https://github.com/espanaarturo)
 
 ---
