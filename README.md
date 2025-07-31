@@ -14,7 +14,7 @@ We developed a race-stratified modeling framework using:
 - **Random Forests** to identify the most important predictors without assuming linearity
 - **Negative Binomial Regression** for interpretable effect sizes and incidence rate ratios (IRRs)
 
-Our findings show that structural inequalities—especially in socioeconomic conditions—play a larger role in preventable hospitalizations among POC populations than clinical access alone. The results call for race-conscious interventions that address both medical and social determinants of health.
+Our findings show that structural inequalities, especially in socioeconomic conditions—play a larger role in preventable hospitalizations among POC populations than clinical access alone. The results call for race-conscious interventions that address both medical and social determinants of health.
 
 ---
 
