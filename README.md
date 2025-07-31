@@ -43,16 +43,6 @@ My findings show that structural inequalities especially in socioeconomic condit
 
 Models were stratified into **White** and **People of Color (POC)** populations and adjusted for population size using race-specific offsets.
 
----
-
-## Tools & Technologies
-
-- `R`
-- Data from the **2025 County Health Rankings & Roadmaps**
-- Modeling: Random Forests, Negative Binomial Regression
-
----
-
 ## Repository Structure
 
 | Folder / File        | Description |
@@ -64,15 +54,6 @@ Models were stratified into **White** and **People of Color (POC)** populations 
 | `negBio.R`              | Negative Binomial regression modeling and diagnostics |
 | `randomForest.R`              | 	Random Forest modeling, variable importance, and stratified subgroup analysis |
 
----
-
-## Project Files
-
-- [**Final Report (HTML)**](report/uhg_report.html)  
-- [**Poster Presentation (PDF)**](poster/uhg_poster.pdf)  
-- [**Code Repository**](https://github.com/espanaarturo/uhg-project)
-
----
 
 ## Summary of Contributions
 
