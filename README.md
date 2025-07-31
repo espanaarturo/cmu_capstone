@@ -98,8 +98,6 @@ Based on the analysis, we propose:
 
 This research was conducted through the **UnitedHealth Group Bridges to Healthcare Technology Program**, hosted by **Carnegie Mellon University**.  
 
-We thank our mentors, faculty advisors, and the UCSB Healthy Communities Project for their support.
-
 ---
 
 ## Contact
