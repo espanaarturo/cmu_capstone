@@ -7,7 +7,7 @@ UnitedHealth Group Bridges to Healthcare Technology Program at Carnegie Mellon U
 
 ## Overview
 
-This project investigates how access to healthcare and structural determinants—such as education, income inequality, and unemployment—shape **racial disparities in preventable hospitalizations** across U.S. counties.
+This project investigates how access to healthcare and structural determinants shape **racial disparities in preventable hospitalizations** across U.S. counties.
 
 We developed a race-stratified modeling framework using:
 
