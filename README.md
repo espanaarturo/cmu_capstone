@@ -55,13 +55,6 @@ Models were stratified into **White** and **People of Color (POC)** populations 
 | `randomForest.R`              | 	Random Forest modeling, variable importance, and stratified subgroup analysis |
 
 
-## Summary of Contributions
-
-- Built a robust, race-stratified model of preventable hospitalizations
-- Applied both machine learning and statistical inference for dual insights
-- Delivered a public-facing poster and technical report
-- Presented results to UnitedHealth Group research advisors and academic mentors
-
 ---
 
 ## Recommendations
