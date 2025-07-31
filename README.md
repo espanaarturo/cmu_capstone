@@ -95,11 +95,12 @@ Based on the analysis, we propose:
 ## Acknowledgments
 
 This research was conducted through the **UnitedHealth Group Bridges to Healthcare Technology Program**, hosted by **Carnegie Mellon University**.  
+
 We thank our mentors, faculty advisors, and the UCSB Healthy Communities Project for their support.
 
 ---
 
-## 📬 Contact
+## Contact
 
 **Arturo Espana**  
 📧 [arturoespana@ucsb.edu](mailto:arturoespana@ucsb.edu)  
