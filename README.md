@@ -57,10 +57,12 @@ Models were stratified into **White** and **People of Color (POC)** populations 
 
 | Folder / File        | Description |
 |----------------------|-------------|
-| `report/uhg_report.html`  | Full technical report with visuals and interpretation |
-| `poster/uhg_poster.pdf`   | Capstone poster summarizing our research |
-| `code/`              | Data cleaning, modeling, and plotting scripts |
-| `data/` *(optional)* | Cleaned or simulated datasets (if shareable) |
+| `final_report.html`  | Full technical report with visuals and interpretation |
+| `poster.pdf`   | Capstone poster summarizing our research |
+| `dataPrep.R`              | Data cleaning, modeling, and plotting scripts |
+| `EDA.R`              | Data cleaning, modeling, and plotting scripts |
+| `negBio.R`              | Data cleaning, modeling, and plotting scripts |
+| `randomForest.R`              | Data cleaning, modeling, and plotting scripts |
 
 ---
 
