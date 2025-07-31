@@ -57,12 +57,12 @@ Models were stratified into **White** and **People of Color (POC)** populations 
 
 | Folder / File        | Description |
 |----------------------|-------------|
-| `final_report.html`  | Full technical report with visuals and interpretation |
-| `poster.pdf`   | Capstone poster summarizing our research |
-| `dataPrep.R`              | Data cleaning, modeling, and plotting scripts |
-| `EDA.R`              | Data cleaning, modeling, and plotting scripts |
-| `negBio.R`              | Data cleaning, modeling, and plotting scripts |
-| `randomForest.R`              | Data cleaning, modeling, and plotting scripts |
+| `final_report.html`  | Full technical report with visualizations, methods, and interpretation of findings |
+| `poster.pdf`   | 	Capstone poster summarizing key results and recommendations |
+| `dataPrep.R`              | Initial data loading, cleaning, and preprocessing pipeline |
+| `EDA.R`              | Exploratory data analysis, including plots and descriptive summaries |
+| `negBio.R`              | Negative Binomial regression modeling and diagnostics |
+| `randomForest.R`              | 	Random Forest modeling, variable importance, and stratified subgroup analysis |
 
 ---
 
