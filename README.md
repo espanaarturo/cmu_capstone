@@ -1,55 +1,109 @@
-# Risk Analysis of Healthcare Access and Racial Disparities in Preventable Hospitalizations
+# County-Level Risk Analysis of Healthcare Access and Racial Disparities in Preventable Hospitalizations
 
 **Summer 2025 Capstone Project**  
-UnitedHealth Group Bridges to Healthcare Technology Program @ Carnegie Mellon University  
-**Author:** Arturo Espana  
+UnitedHealth Group Bridges to Healthcare Technology Program at Carnegie Mellon University  
+**Author:** Arturo Espana
+---
 
 ## Overview
 
-This project investigates whether healthcare access — such as primary care physician availability and insurance coverage — influences racial disparities in preventable hospital stays across U.S. counties.
+This project investigates how access to healthcare and structural determinants—such as education, income inequality, and unemployment—shape **racial disparities in preventable hospitalizations** across U.S. counties.
 
-We modeled preventable hospitalization rates by race using:
-- **Random Forests** (for variable importance)
-- **Negative Binomial Regression** (for interpretable effect estimates)
+We developed a race-stratified modeling framework using:
 
-Deliverables include a research poster, a technical HTML report, and fully reproducible code.
+- **Random Forests** to identify the most important predictors without assuming linearity
+- **Negative Binomial Regression** for interpretable effect sizes and incidence rate ratios (IRRs)
 
----
-
-## Repository Contents
-
-| Folder/File       | Description |
-|-------------------|-------------|
-| `report/uhg_report.html` | Full technical write-up with figures, methods, and results |
-| `poster/uhg_poster.pdf`  | Capstone poster presented to UnitedHealth Group |
-| `code/`           | Scripts for data cleaning, modeling, and visualization |
-| `data/` (optional) | Cleaned datasets (if allowed for sharing) |
+Our findings show that structural inequalities—especially in socioeconomic conditions—play a larger role in preventable hospitalizations among POC populations than clinical access alone. The results call for race-conscious interventions that address both medical and social determinants of health.
 
 ---
 
-## Key Insights
+## Key Findings
 
-- POC-majority counties face significantly higher preventable hospitalization rates than White-majority counties.
-- Access to primary care and insurance coverage are among the most influential predictors.
-- Random Forests revealed key non-linear interactions; regression confirmed consistent risk effects.
+- **High school completion**, **unemployment**, and **income inequality** ranked as top predictors of preventable hospitalizations for POC populations.
+- **Rurality** and **provider supply** correlated paradoxically with hospitalization rates, suggesting overuse or systemic inefficiencies.
+- Interventions focused solely on expanding health infrastructure may help White counties but are insufficient for POC communities unless upstream barriers are addressed.
 
 ---
 
-## Tools Used
+## Methods
+
+### Exploratory Data Analysis
+
+- Examined variable distributions and racial disparities in preventable hospitalizations
+- Visualized geographic clustering with choropleths and computed disparity ratios
+- Evaluated multicollinearity using a correlation heatmap
+
+### Modeling Approach
+
+| Method                     | Purpose                                      |
+|---------------------------|----------------------------------------------|
+| **Random Forests**        | Ranked variable importance (flexible, nonparametric) |
+| **Negative Binomial Regression** | Estimated effect sizes (IRRs) and compared predictors by race |
+
+Models were stratified into **White** and **People of Color (POC)** populations and adjusted for population size using race-specific offsets.
+
+---
+
+## Tools & Technologies
 
 - `R`
-- `Random Forest`, `Negative Binomial Regression`
-- County Health Rankings & Roadmaps 2025 data
+- Data from the **2025 County Health Rankings & Roadmaps**
+- Modeling: Random Forests, Negative Binomial Regression
 
 ---
 
-## Links
+## Repository Structure
 
-- 🔗 [View Poster (PDF)](poster/uhg_poster.pdf)  
-- 🔗 [View Full Report (HTML)](report/uhg_report.html)
+| Folder / File        | Description |
+|----------------------|-------------|
+| `report/uhg_report.html`  | Full technical report with visuals and interpretation |
+| `poster/uhg_poster.pdf`   | Capstone poster summarizing our research |
+| `code/`              | Data cleaning, modeling, and plotting scripts |
+| `data/` *(optional)* | Cleaned or simulated datasets (if shareable) |
+
+---
+
+## Project Files
+
+- [**Final Report (HTML)**](report/uhg_report.html)  
+- [**Poster Presentation (PDF)**](poster/uhg_poster.pdf)  
+- [**Code Repository**](https://github.com/espanaarturo/uhg-project)
+
+---
+
+## Summary of Contributions
+
+- Built a robust, race-stratified model of preventable hospitalizations
+- Applied both machine learning and statistical inference for dual insights
+- Delivered a public-facing poster and technical report
+- Presented results to UnitedHealth Group research advisors and academic mentors
+
+---
+
+## Recommendations
+
+Based on the analysis, we propose:
+
+1. **Race-conscious strategies** that address upstream barriers (education, income, employment)
+2. Expansion of **Community Health Workers** and **preventive care access** in high-need areas
+3. **Integrated care coordination models** for patients at risk of fragmented or overused hospital services
+4. **More granular data collection** by race and geography to guide future interventions
 
 ---
 
 ## Acknowledgments
 
-This project was conducted as part of the **UnitedHealth Group Bridges to Healthcare Technology Program**, hosted by **Carnegie Mellon University**.  
+This research was conducted through the **UnitedHealth Group Bridges to Healthcare Technology Program**, hosted by **Carnegie Mellon University**.  
+We thank our mentors, faculty advisors, and the UCSB Healthy Communities Project for their support.
+
+---
+
+## 📬 Contact
+
+**Arturo Espana**  
+📧 [arturoespana@ucsb.edu](mailto:arturoespana@ucsb.edu)  
+🔗 [LinkedIn](https://www.linkedin.com/in/arturo-espana)  
+🔗 [GitHub](https://github.com/espanaarturo)
+
+---
