@@ -9,12 +9,12 @@ UnitedHealth Group Bridges to Healthcare Technology Program at Carnegie Mellon U
 
 This project investigates how access to healthcare and structural determinants shape **racial disparities in preventable hospitalizations** across U.S. counties.
 
-We developed a race-stratified modeling framework using:
+I developed a race-stratified modeling framework using:
 
 - **Random Forests** to identify the most important predictors without assuming linearity
 - **Negative Binomial Regression** for interpretable effect sizes and incidence rate ratios (IRRs)
 
-Our findings show that structural inequalities especially in socioeconomic conditions play a larger role in preventable hospitalizations among POC populations than clinical access alone. The results call for race-conscious interventions that address both medical and social determinants of health.
+My findings show that structural inequalities especially in socioeconomic conditions play a larger role in preventable hospitalizations among POC populations than clinical access alone. The results call for race-conscious interventions that address both medical and social determinants of health.
 
 ---
 
