@@ -59,7 +59,7 @@ Models were stratified into **White** and **People of Color (POC)** populations 
 
 ## Recommendations
 
-Based on the analysis, we propose:
+Based on the analysis, I propose:
 
 1. **Race-conscious strategies** that address upstream barriers (education, income, employment)
 2. Expansion of **Community Health Workers** and **preventive care access** in high-need areas
