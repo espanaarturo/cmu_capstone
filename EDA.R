@@ -1,16 +1,5 @@
-library(tidyverse)
-library(sf)           
-library(spdep)        
-library(mgcv)         
-library(xgboost)      
-library(SHAPforxgboost) 
-library(mice)         
-library(patchwork)    
-library(ggdag)      
-library(MASS)
-library(broom)
-library(dplyr)
 source("EDA_import.R")
+source("dataPrep.R")
 
 
 ## Data ##
