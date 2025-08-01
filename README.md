@@ -47,7 +47,7 @@ Models were stratified into **White** and **People of Color (POC)** populations 
 
 | Folder / File        | Description |
 |----------------------|-------------|
-| `final_report.html`  | Full technical report with visualizations, methods, and interpretation of findings |
+| `final_report.html`  | Full technical report with visualizations, methods, and interpretation of findings (try pdf version if html does not load) |
 | `poster.pdf`   | 	Capstone poster summarizing key results and recommendations |
 | `dataPrep.R`              | Initial data loading, cleaning, and preprocessing pipeline |
 | `EDA.R`              | Exploratory data analysis, including plots and descriptive summaries |
